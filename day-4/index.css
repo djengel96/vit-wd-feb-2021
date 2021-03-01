@@ -1,0 +1,15 @@
+body {
+   background-color: aliceblue;
+}
+
+div {
+   background-color: rosybrown;
+}
+
+.col {
+   color: mediumaquamarine;
+   width: 200px;
+   height: 400px;
+   background-color: yellowgreen;
+   border: 1px dotted orangered
+}
