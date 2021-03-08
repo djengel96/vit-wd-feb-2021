@@ -1,0 +1,48 @@
+.container {
+   height: 128px;
+   width:128px;
+   border: 1px solid black;
+   overflow: hidden;
+   margin: 20px auto;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+.container:nth-child(2) {
+   margin-bottom: 20px;
+}
+.inner-container {
+   animation-name: carousel;
+   animation-duration: 2s;
+   display: flex;
+}
+@keyframes carousel {
+   from {transform: translateX(0);}
+   to {transform: translateX(-256px);}
+}
+
+#js-inner {
+   display: flex;
+   transform: var(--location);
+}
+
+.holder {
+   display: inline-block;
+}
+
+.button-container {
+   
+   text-align: center;
+}
+
+.button-container button {
+   width: 200px;
+   padding: 20px;
+   margin: 0 20px;
+   font-size: 20px;
+   border-radius: 15px;
+   font-weight: 700;
+   background-color:lightblue;
+}
+.button-container button:hover {
+   background-color:darkturquoise;
+}

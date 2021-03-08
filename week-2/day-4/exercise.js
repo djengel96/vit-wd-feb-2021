@@ -1,12 +1,14 @@
 function decrement() {
   // access the DOM element associated with the h1
-  var h1Element = "CHANGE ME";
+  var h1Element = document.getElementById("grabMe");
   var numberText = Number(h1Element.innerText);
   numberText++;
+  console.log(numberText)
   h1Element.innerText = numberText;
 }
 
 function increment() {
+  console.log(numberText)
   // write code here
 }
 
