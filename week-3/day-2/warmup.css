@@ -38,14 +38,14 @@ button {
   flex: 25%;
   padding: 5%;
   font-size: 1.5em;
-  color: midnightblue;
+  font-weight: 700;
 }
 
 .number {
   background-color: grey;
 }
 
-#operator {
+.operator {
   background-color: orange;
 }
 
@@ -57,7 +57,7 @@ button {
   background-color: crimson;
 }
 
-.whyIsntThisWorking\?{
+#whyIsntThisWorking\?{
 background-image: url(https://www.nag.co.za/wp-content/uploads/2019/02/pikachu-shocked.png) !important;
 background-size: 100%;
 }
